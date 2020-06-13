@@ -1,7 +1,7 @@
 import React from 'react';
 import '../assets/main.css';
 import Menu from './Menu'
-import SearchBar from './SearchBar'
+
 import { ReactComponent as Logo} from "../assets/svg/infinity.svg"
 
 
@@ -19,9 +19,9 @@ return(
     </div>
 
     
-<h1 className="w-1/3  " > 
+<h1 className="w-1/3 flex justify-center items-center " > 
 
- <span className="text-md text-teal-500 w-full  "> <Logo className="inline-block" /> {headertitle} </span>
+ <span className="text-md text-teal-500     "> <Logo className="inline-block" /> {headertitle} </span>
 
 
 
@@ -36,7 +36,7 @@ return(
 
      </div>
 
-<SearchBar/>
+
 </>
 
 )
