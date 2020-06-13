@@ -223,13 +223,6 @@ return (
 
 
 
-
-  <div className="">text</div>
-
-  <div className="" >text</div>
-
-
-  
     
 
 
